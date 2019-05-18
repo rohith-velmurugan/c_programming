@@ -1,6 +1,6 @@
-  #include<stdio.h>
+#include<stdio.h>
 
-  void take_input();
+void take_input();
 int is_onepair(int player);
 int check_three(int x, int y, int z);
 int is_twopair(int player);
@@ -405,7 +405,7 @@ int check_winner(){
 }
 
 //main function
-int main()
+void main()
 {
   take_input();
   if (check_winner() == 1){
